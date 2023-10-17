@@ -33,10 +33,9 @@ def countvotes(votes):
         result[item-1] += 1
     return result
 
-def printresult(votes):\
+def printresult(votes):
     for index,item in enumerate(votes):
-        print(f'기호 : { index+1 :2} 득표수 : {item}')
-
+        print(f'기호 : { index+1 :2}  득표수 : {item}') 
 
 votes = input('투표데이터 >>> ')
 print(votes)
@@ -44,3 +43,6 @@ print(type(votes))
 result = str2int(votes)
 print(result)
 print(type(result))
+result = countvotes(result)
+print(result)
+printresult(result)
