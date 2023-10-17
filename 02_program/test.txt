@@ -1,3 +1,0 @@
-C:/Users/YEON/anaconda3/python.exe c:/pythoncode/02_program/00_file_test.py
-파이썬
-프로그래밍
